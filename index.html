@@ -8,19 +8,30 @@
         <h1>To Do...</h1>
         <br>
         <form action="/action_page.php">
-            New Task: <input type="text" name="FirstName" value="type here"><br>
+            New Task: <input type="text" name="NewTask" value="type here">
+            <br>
+            Category: <input type="text" name="Category" value="type here">
             <input type="submit" value="Add">
             </form>
-            <p>Number of tasks left: 1</p>
+            <p>Number of tasks left: 2</p>
             <br>
             <table>
                     <tr>
                       <th>Task</th>
                       <th>Category</th>
                       <th></th>
+                      <th></th>
+                    </tr>
                     <tr>
                       <td>Wash dishes</td>
                       <td>Housework</td>
+                      <td><button class="btn default">Edit</button></td>
+                      <td><button class="btn default">Delete</button></td>
+                    </tr>
+                    <tr>
+                      <td>Email boss</td>
+                      <td>Admin</td>
+                      <td><button class="btn default">Edit</button></td>
                       <td><button class="btn default">Delete</button></td>
                     </tr>
             </table>
