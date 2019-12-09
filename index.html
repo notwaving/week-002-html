@@ -8,34 +8,38 @@
     <body>
         <h1 id="title">To Do...</h1>
         <br>
-        <form action="/action_page.php">
+        <div>
+          <form action="/action_page.php">
             New Task: <input type="text" name="NewTask" value="type here">
-            <br>
+            <br><br>
             Category: <input type="text" name="Category" value="type here">
             <input type="submit" value="Add">
-            </form>
-            <p id="tasks-left">Number of tasks left: 2</p>
-            <br>
-            <table>
-                    <tr>
-                      <th>Task</th>
-                      <th>Category</th>
-                      <th></th>
-                      <th></th>
-                    </tr>
-                    <tr>
-                      <td>Wash dishes</td>
-                      <td>Housework</td>
-                      <td><button class="btn default">Edit</button></td>
-                      <td><button class="btn default">Delete</button></td>
-                    </tr>
-                    <tr>
-                      <td>Email boss</td>
-                      <td>Admin</td>
-                      <td><button class="btn default">Edit</button></td>
-                      <td><button class="btn default">Delete</button></td>
-                    </tr>
-            </table>
+          </form>
+        </div>
+        <br>
+          <p id="tasks-left">Number of tasks left: 2</p>
+        <div>
+          <table>
+            <tr>
+              <th>Task</th>
+              <th>Category</th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>Wash dishes</td>
+              <td>Housework</td>
+              <td><button class="btn-default">Edit</button></td>
+              <td><button class="btn-default">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Email boss</td>
+              <td>Admin</td>
+              <td><button class="btn-default">Edit</button></td>
+              <td><button class="btn-default">Delete</button></td>
+            </tr>
+          </table>
+        </div>
     </body>
 </html>
 
