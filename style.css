@@ -1,0 +1,16 @@
+#title {
+    color: red;
+}
+
+#tasks-left {
+    color: green;
+}
+
+input {
+    background-color: orange;
+    width: 40%;
+}
+
+table {
+    background-color: blue;
+}
