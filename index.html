@@ -18,20 +18,21 @@
             <h1 id="title">To Do...</h1>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6">
+        
+          
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="col-sm-10"> New Task: <input type="text" name="NewTask"></div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-sm-10"> Category: <input type="text" name="Category">
+                <input type="submit" value="Add"></div>
+              </div>
+            </form>
           </div>
         </div>
         
-      
-      
-        <div>
-          <form action="/action_page.php">
-            New Task: <input type="text" name="NewTask">
-            Category: <input type="text" name="Category">
-            <input type="submit" value="Add">
-          </form>
-        </div>
         <br>
         <p id="tasks-left">Number of tasks left: 2</p>
         <div>
