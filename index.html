@@ -14,7 +14,7 @@
     <body>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-8">
             <h1 id="title">To Do...</h1>
           </div>
         </div>
@@ -34,27 +34,40 @@
         </div>
         
         <br>
-        <p id="tasks-left">Number of tasks left: 2</p>
         <div>
-          <table>
-            <tr>
-              <th>Task</th>
-              <th>Category</th>
-              <th></th>
-              <th></th>
-            </tr>
-            <tr>
-              <td>Wash dishes</td>
-              <td>Housework</td>
-              <td><button class="btn-default">Edit</button></td>
-              <td><button class="btn-default">Delete</button></td>
-            </tr>
-            <tr>
-              <td>Email boss</td>
-              <td>Admin</td>
-              <td><button class="btn-default">Edit</button></td>
-              <td><button class="btn-default">Delete</button></td>
-            </tr>
+          <p id="tasks-left">Number of tasks left: 2</p>
+        </div>
+        <br>
+        <div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Task</th>
+                <th scope="col">Category</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Wash dishes</th>
+                <td>Housework</td>
+                <td><button class="btn-default">Edit</button></td>
+                <td><button class="btn-default">Delete</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Email boss</th>
+                <td>Admin</td>
+                <td><button class="btn-default">Edit</button></td>
+                <td><button class="btn-default">Delete</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Plan dinner</th>
+                <td>Housework</td>
+                <td><button class="btn-default">Edit</button></td>
+                <td><button class="btn-default">Delete</button></td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <br>
