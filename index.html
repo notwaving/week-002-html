@@ -13,29 +13,30 @@
     </head>
     <body>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1 id="title">To Do...</h1>
-          </div>
+        <div>
+          <h1 id="title">To Do...</h1>
         </div>
         <br>
-          
-            <form action="/action_page.php">
-              <div class="row">
-                <div class="col-sm-10"> New Task: <input type="text" name="NewTask"></div>
+        <br>
+        <div>
+          <form>
+            <div class="form-group row">
+              <label for="inputTask" class="col-sm-1 col-form-label">New Task</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputText" placeholder="Type here">
               </div>
-              <br>
-              <div class="row">
-                <div class="col-sm-10"> Category: <input type="text" name="Category">
-                <input type="submit" value="+"></div>
+              <label for="inputTask" class="col-sm-1 col-form-label">Category</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="inputCategory" placeholder="Optional">
               </div>
-            </form>
-          </div>
+              <button type="submit" class="btn btn-primary mb-2">Add</button>        
+          </form>
         </div>
+    
         
         <br>
         <div>
-          <p id="tasks-left">Number of tasks left: 2</p>
+          <p id="tasks-left">Number of tasks left: 3</p>
         </div>
         <br>
         <div>
@@ -75,13 +76,3 @@
       </div>
     </body>
 </html>
-
-<!-- "Create the tag listing that shows the task name, add button and delete button." 
-I've already got an add button in the form. Putting another one in the table feels redundant. 
-Is this OK?
--->
-
-<!-- 1. Haven't added any classes, because I didn't see the need at this point - is this OK?
-2. Is there any way to make my form input fields line up relative to each other without putting them in a table? 
-3. In CSS, my body's gradient seems to bleed into the html, according to Chrome's inspector.
-Is there any way to stop this happening? It looks strange!-->
