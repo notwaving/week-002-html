@@ -22,30 +22,21 @@ html, body {
     font-size: 1.6em;
 }
 
-.row {
-    text-align: left ;
-}
-
-form {
+.task-list-header{
     text-align: left;
-}
-
-table {
     font-size: 1.2em;
-    width: 50%;
-}
-  
-th {
     height: 50px;
+    font-weight: bold;
 }
 
-tr {
+.task-list{
     text-align: left;
-}
-
-td {
+    font-size: 1.2em;
+    height: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 
 btn-default {
     background-color: black;
