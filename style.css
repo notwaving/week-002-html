@@ -22,19 +22,24 @@ html, body {
     font-size: 1.6em;
 }
 
-.task-list-header{
+.task-list-header {
     text-align: left;
     font-size: 1.2em;
     height: 50px;
     font-weight: bold;
 }
 
-.task-list{
+.task-list {
     text-align: left;
     font-size: 1.2em;
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.task-list .col-2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 
 
 
